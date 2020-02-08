@@ -1,5 +1,6 @@
 from time import sleep
 class Cars:
+    """ The main car's Class """
 
     def __init__(self,name,speed,fuel):
         print("Getting Data! ")
@@ -16,6 +17,7 @@ class Cars:
 
     
     def increment(self,count):
+        """ increment method """
         print("Incrementing the speed... ")
         sleep(3)
         while self.speed < count:
@@ -29,6 +31,7 @@ class Cars:
 
     
     def decrement(self,count):
+        """ decrement method """
         print("Decrementing the speed... ")
         sleep(3)
         while self.speed > count:
