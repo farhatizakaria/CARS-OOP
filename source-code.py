@@ -1,4 +1,6 @@
-from time import sleep
+from time import sleep # Import this shitty library
+# Creatin a class called Cars
+
 class Cars:
     """ The main car's Class """
 
